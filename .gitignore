@@ -1,0 +1,12 @@
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+### WebStorm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/

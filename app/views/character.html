@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-xs-12">
+    <span ng-bind="book.name"></span>
+    <input ng-model="book.author" />
+    <br/>
+    <br/>
+    Is Available: <span ng-bind="isAvailable() ? 'Yes' : 'No' "></span>
+    <br/>
+    <button ng-click="deleteBook()">Delete</button>
+    <br/>
+    <button ng-click="updateBook()">Update</button>
+  </div>
+</div>
